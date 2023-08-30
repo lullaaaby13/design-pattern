@@ -1,4 +1,4 @@
-package attack;
+package com.example.strategy.attack;
 
 public class C10CanisterRifle implements AttackBehavior {
     private int damage = 10;

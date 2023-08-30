@@ -1,4 +1,4 @@
-package attack;
+package com.example.strategy.attack;
 
 public class FlameThrowers implements AttackBehavior{
 

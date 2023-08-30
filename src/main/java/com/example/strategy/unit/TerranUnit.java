@@ -1,6 +1,6 @@
-package unit;
+package com.example.strategy.unit;
 
-import attack.AttackBehavior;
+import com.example.strategy.attack.AttackBehavior;
 
 public class TerranUnit {
     AttackBehavior attackBehavior;
@@ -13,4 +13,7 @@ public class TerranUnit {
         attackBehavior.attack();
     }
 
+    public void setAttackBehavior(AttackBehavior attackBehavior) {
+        this.attackBehavior = attackBehavior;
+    }
 }

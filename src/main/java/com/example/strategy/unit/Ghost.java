@@ -1,7 +1,7 @@
-package unit;
+package com.example.strategy.unit;
 
 
-import attack.AttackBehavior;
+import com.example.strategy.attack.AttackBehavior;
 
 public class Ghost extends TerranUnit {
 

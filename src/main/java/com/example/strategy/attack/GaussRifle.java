@@ -1,4 +1,4 @@
-package attack;
+package com.example.strategy.attack;
 
 public class GaussRifle implements AttackBehavior {
     private int damage = 6;
